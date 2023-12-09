@@ -17,3 +17,11 @@ footer img {
     display: inline-block;
     vertical-align: text-bottom;
 }
+
+.dark {
+    --hljs-bg: rgb(30,30,30);
+}
+
+.right {
+    text-align: right;
+}

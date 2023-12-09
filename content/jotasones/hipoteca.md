@@ -5,8 +5,8 @@ draft = false
 +++
 
 	{
-		Tengo el modelo entrenado
-		cuando aprieto yo la tecla
-		decide los intereses
-		pa' entregarte la hipoteca.
+		Está el modelo entrenado,
+		con el toque de una tecla
+		los intereses decide
+		para ahogarte en la hipoteca.
 	}

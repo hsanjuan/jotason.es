@@ -5,8 +5,13 @@ draft = false
 +++
 
 	{
-		De la nueva inteligencia
-		se genera contenido
-		llámala mejor la ey-ay
+		Con la nueva inteligencia
+		se genera contenido.
+		Llámala mejor la ey-ay,
 		pasarás por entendido.
+	
+		Con la nueva inteligencia
+		llamada la artifical
+		descansa el viejo poeta:
+		corta y pega el recital.
 	}

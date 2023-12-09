@@ -6,7 +6,7 @@ draft = false
 
 	{
 		Desplegada está la güeb
-		pa' que cuelgues tus posteos
+		pa' que cuelgues tus posteos,
 		con un cuatrocientos tres
 		si te pasas te baneo.
 	}
