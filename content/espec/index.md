@@ -40,7 +40,7 @@ Por ejemplo, el siguiente jotasón contiene una copla como estrofa:
 	{
 		Si te mandan jotasones
 		parsea la petición,
-		a menos que lleve el jéder
+		si faltárenle los jéders
 		pide la autenticación.
 	}
 
@@ -56,7 +56,7 @@ Normalmente es el caso de anglicismos, cuya pronunciación deberá quedar debida
 
 Ejemplos:
 
-  - *Hardware* -> hargüar
+  - *Hardware* -> hárgüar
   - *Kernel* -> quérnel
   - *DDOS* -> dedós
   - *Autoscaling* -> autoesqueilin
@@ -82,13 +82,13 @@ El jotasón puede representarse en formato "pretificado" cuando los cuatro verso
 Por ejemplo, un jotasón pretificado sería el siguiente:
 
 	{
-		Parsea la petición, (2)
-		si te mandan jotasones (1)
-		parsea la petición, (2)
-		a menos que lleve el jéder (3)
-		pide la autenticación, (4)
-		pide la autenticación (4)
-		si te mandan jotasones. (1)
+		Parsea la petición,
+		si te mandan jotasones
+		parsea la petición,
+		si faltárenle los jéders
+		pide la autenticación,
+		pide la autenticación
+		si te mandan jotasones.
 	}
 
 Nótese que para que un jotasón sea pretificable ha de cuadrar el primer verso tanto con el segundo como con el cuarto. En en ejemplo, ambas frases tienen sentido: `Parsea la petición / si te mandan jotasones`, `Pide la autenticación / si te mandan jotasones`.
