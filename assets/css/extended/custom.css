@@ -1,0 +1,19 @@
+.home-info {
+    min-height: 0;
+    margin-bottom: 0;
+}
+
+.entry-content p {
+    margin-bottom: 20px;
+}
+
+code {
+    //font-style: oblique;
+    font-weight: bold;
+    //color: lemonchiffon!important;
+}
+
+footer img {
+    display: inline-block;
+    vertical-align: text-bottom;
+}

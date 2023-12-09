@@ -1,0 +1,76 @@
+baseURL: 'https://jotason.es/'
+languageCode: 'es-es'
+title: '{ Jotasones }'
+theme: 'PaperMod'
+copyright:  © 2023 Héctor Sanjuán
+paginate: 1
+paginatePath: "jotasones"
+enableEmoji: true
+params:
+  env: production
+  ShowReadingTime: false
+  ShowCodeCopyButtons: false
+  showtoc: false
+  hideFooter: true
+  hideMeta: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  assets:
+    disableHLJS: true  
+  homeInfoParams:
+    Title: Jotasones
+    Content: >-
+      El jotasón es la forma poética por excelencia de los y las profesionales de la informática. El jotasón nació de una noche de pasión entre la [jota aragonesa](https://es.wikipedia.org/wiki/Jota_aragonesa) y la [notación de objecto de JavaScript](https://es.wikipedia.org/wiki/JSON).
+      
+
+      Aquí encontrarás una colección de [jotasones](/jotasones/) y la [especificación](/espec/) del formato poético que te ayudará a escribir tus propios e inconfundibles jotasones.
+  
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+  
+mainSections:
+  - espec
+  - jotasones
+
+menu:
+  main:
+    - identifier: "jotasones"
+      name: "Jotasones"
+      url: "/jotasones/"
+      weight: 10
+    - identifier: "espec"
+      name: "Especificación"
+      url: /espec/
+      weight: 20
+    - identifier: "buscar"
+      name: "Búsqueda"
+      url: /buscar/
+      weight: 30
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true

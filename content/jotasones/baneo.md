@@ -1,0 +1,12 @@
++++
+title = 'Baneos'
+date = 2023-12-08T14:42:43+01:00
+draft = false
++++
+
+	{
+		Desplegada está la güeb
+		pa' que cuelgues tus posteos
+		con un cuatrocientos tres
+		si te pasas te baneo.
+	}
