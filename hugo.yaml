@@ -34,7 +34,6 @@ outputs:
 
   
 mainSections:
-  - espec
   - jotasones
 
 menu:
