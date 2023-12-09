@@ -3,12 +3,25 @@ defaultContentLanguage: es
 languageCode: 'es-es'
 title: '{ J }'
 theme: 'PaperMod'
-copyright:  © 2023 Héctor Sanjuán
+copyright:  © 2024 Héctor Sanjuán
 paginate: 1
 paginatePath: "jotasones"
 enableEmoji: true
+enableRobotsTXT: true
 params:
   env: production
+  author: Héctor Sanjuán
+  description: Página oficial del jotasón.
+  keywords:
+    - json
+    - jotasón
+    - jotason
+    - formato
+    - poesía
+    - copla
+    - romance
+    - jota aragonesa
+    - jota
   ShowReadingTime: false
   ShowCodeCopyButtons: false
   showtoc: false
