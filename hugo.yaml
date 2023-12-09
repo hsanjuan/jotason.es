@@ -1,4 +1,5 @@
 baseURL: 'https://jotason.es/'
+defaultContentLanguage: es
 languageCode: 'es-es'
 title: '{ Jotasones }'
 theme: 'PaperMod'
