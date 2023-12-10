@@ -1,19 +1,24 @@
 {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- if and (gt (len $pages) 1) (in $pages . ) }}
-<nav class="paginav">
+<nav class="pagination">
   {{- with $pages.Prev . }}
   <a class="prev" href="{{ .Permalink }}">
     <span class="title">« {{ i18n "prev_page" }}</span>
-    <br>
-    <span>{{- .Name -}}</span>
   </a>
   {{- end }}
+  <a class="{{- if $pages.Prev .}}next{{- else}}prev{{- end }}" id="rand_button" href="{{ .Permalink }}">
+    <span class="title">Aleatorio</span>
+  </a>
   {{- with $pages.Next . }}
   <a class="next" href="{{ .Permalink }}">
     <span class="title">{{ i18n "next_page" }} »</span>
-    <br>
-    <span>{{- .Name -}}</span>
   </a>
   {{- end }}
 </nav>
+<script>
+  const r = document.getElementById("rand_button");
+  const n = Math.floor(Math.random() * {{len $pages}}) + 1;
+  console.log(n);
+  r.setAttribute("href", "/jotasones/" + n);
+</script>
 {{- end }}

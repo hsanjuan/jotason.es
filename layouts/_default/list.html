@@ -68,7 +68,7 @@
   {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
   <header class="entry-header">
     <p class="right">
-      Jotasón #{{ len ($pages) }}
+      {{- if $.IsHome }}Jotasón #{{ len $pages }}{{- end }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
     </p>
     <h2>
