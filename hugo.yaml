@@ -11,7 +11,7 @@ enableRobotsTXT: true
 params:
   env: production
   author: Héctor Sanjuán
-  description: Página oficial del jotasón.
+  description: Página oficial del jotasón, la jota de la informática.
   keywords:
     - json
     - jotasón
