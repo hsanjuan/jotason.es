@@ -5,13 +5,13 @@ draft = false
 +++
 
 	{
-		El api me dosearon
+		El api me dosearon,
 		el endpoint se saturó,
 		entró a juego el autoescaling,
 		nada me lo rescató.
 	
 		Por tráfico de salida
-		factura llegó después
+		factura llegó después,
 		tengo aún ticket abierto
 		suplicando a e-dabliu-és.
 	

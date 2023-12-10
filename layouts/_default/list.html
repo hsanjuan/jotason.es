@@ -87,6 +87,10 @@
   {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
+{{- if (.Param "ShowPostNavLinks") }}
+{{- partial "post_nav_links.html" . }}
+{{- end }}
+
 {{- end }}
 
 {{- if and false (gt $paginator.TotalPages 1) }}

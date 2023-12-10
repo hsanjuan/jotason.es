@@ -22,6 +22,8 @@ params:
     - romance
     - jota aragonesa
     - jota
+  images:
+    - /cover.png
   ShowReadingTime: false
   ShowCodeCopyButtons: false
   showtoc: false
