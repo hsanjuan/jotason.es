@@ -22,6 +22,9 @@ params:
     - romance
     - jota aragonesa
     - jota
+    - informática
+    - informatica
+    - software
   images:
     - /cover.png
   label:
