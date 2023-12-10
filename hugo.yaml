@@ -44,7 +44,7 @@ params:
       El jotasón es la forma poética por excelencia de los y las profesionales de la informática. El jotasón nació de una noche de pasión entre la [jota aragonesa](https://es.wikipedia.org/wiki/Jota_aragonesa) y la [notación de objecto de JavaScript](https://es.wikipedia.org/wiki/JSON).
       
 
-      Aquí encontrarás una colección de [jotasones](/jotasones/) y la [especificación](/espec/) del formato por si deseas generar tus propios jotasones.
+      Aquí encontrarás una colección de [jotasones](/jotasones/) y la [especificación](/espec/) del formato por si deseas crear tus propios jotasones.
   
 outputs:
   home:
