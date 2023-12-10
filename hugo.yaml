@@ -1,7 +1,7 @@
 baseURL: 'https://jotason.es/'
 defaultContentLanguage: es
 languageCode: 'es-es'
-title: '{ J }'
+title: '{ Jotasones }'
 theme: 'PaperMod'
 copyright:  © 2024 Héctor Sanjuán
 paginate: 1
@@ -24,6 +24,8 @@ params:
     - jota
   images:
     - /cover.png
+  label:
+    text: "{ J }"
   ShowReadingTime: false
   ShowCodeCopyButtons: false
   showtoc: false
