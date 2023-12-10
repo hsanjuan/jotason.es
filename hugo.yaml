@@ -4,8 +4,8 @@ languageCode: 'es-es'
 title: '{ Jotasones }'
 theme: 'PaperMod'
 copyright:  © 2024 Héctor Sanjuán
-paginate: 1
-paginatePath: "jotasones"
+paginate: 1000
+paginatePath: "pagina"
 enableEmoji: true
 enableRobotsTXT: true
 params:
