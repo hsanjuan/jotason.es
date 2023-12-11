@@ -58,10 +58,6 @@ mainSections:
 
 menu:
   main:
-    - identifier: "jotasones"
-      name: "Jotasones"
-      url: "/jotasones/"
-      weight: 10
     - identifier: "espec"
       name: "Especificación"
       url: /especs/v1
