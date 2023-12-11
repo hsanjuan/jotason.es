@@ -66,6 +66,11 @@ menu:
       name: "Búsqueda"
       url: /buscar/
       weight: 30
+    - identifier: "contacto"
+      name: "Contacto"
+      url: /contacto/
+      weight: 40
+
 
 privacy:
     vimeo:
