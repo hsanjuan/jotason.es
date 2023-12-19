@@ -11,7 +11,7 @@ enableRobotsTXT: true
 params:
   env: production
   author: Héctor Sanjuán
-  description: Página oficial del jotasón, la jota de la informática.
+  description: Jotas informáticas.
   keywords:
     - json
     - jotasón
@@ -41,10 +41,7 @@ params:
   homeInfoParams:
     Title: "{ Jotason.es }"
     Content: >-
-      El jotasón es la forma poética por excelencia de los y las profesionales de la informática, nacido de una noche de pasión entre la [jota aragonesa](https://es.wikipedia.org/wiki/Jota_aragonesa) y la [notación de objecto de JavaScript](https://es.wikipedia.org/wiki/JSON).
-      
-
-      Aquí encontrarás una colección de [jotasones](/jotasones/) y la especificación del formato [Jotasón v1.0](/especs/v1) por si deseas crear tus propias rimas adaptadas al estándar.
+      Los jotasones son coplas de temática tecnológica nacidas de mezclar la [jota aragonesa](https://es.wikipedia.org/wiki/Jota_aragonesa) y la [notación de objecto de JavaScript](https://es.wikipedia.org/wiki/JSON).
 
 outputs:
   home:
