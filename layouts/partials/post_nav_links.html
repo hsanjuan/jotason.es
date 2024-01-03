@@ -1,19 +1,33 @@
 {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- if and (gt (len $pages) 1) (in $pages . ) }}
 <nav class="pagination">
+  <a class="prev" href="/jotasones/1">
+    <span class="title">|«</span>
+  </a>
   {{- with $pages.Prev . }}
-  <a class="prev" href="{{ .Permalink }}">
+  <a class="next" href="{{ .Permalink }}">
+    <span class="title">« {{ i18n "prev_page" }}</span>
+  </a>
+  {{- else }}
+  <a class="next" href="#">
     <span class="title">« {{ i18n "prev_page" }}</span>
   </a>
   {{- end }}
-  <a class="{{- if $pages.Prev .}}next{{- else}}prev{{- end }}" id="rand_button" href="{{ .Permalink }}">
+  <a class="next" id="rand_button" href="{{ .Permalink }}">
     <span class="title">Aleatorio</span>
   </a>
   {{- with $pages.Next . }}
   <a class="next" href="{{ .Permalink }}">
     <span class="title">{{ i18n "next_page" }} »</span>
   </a>
+  {{- else }}
+  <a class="next" href="#">
+    <span class="title">{{ i18n "next_page" }} »</span>
+  </a>
   {{- end }}
+  <a class="next" href="/jotasones/{{ len $pages }}">
+    <span class="title">»|</span>
+  </a>
 </nav>
 <script>
   const r = document.getElementById("rand_button");

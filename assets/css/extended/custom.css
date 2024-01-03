@@ -28,6 +28,7 @@ footer img {
 
 .post-footer {
     margin-top: 30px;
+}
 
 .list .paginav {
     background: var(--entry);
@@ -38,3 +39,6 @@ footer img {
     margin-right: auto;
 }
 
+.pagination span.title {
+    font-weight: bold;
+}
