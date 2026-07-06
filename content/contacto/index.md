@@ -5,8 +5,10 @@ draft = false
 +++
 
 	{
-		jotasones@proton.me
-		es la nuestra dirección.
-		Encantados de atenderte
-		a la menor ocasión.
+		Tamboril con una arroba
+		jotasones punto es.
+		El espam bien me joroba,
+		mas si no replicaré.
 	}
+
+Para la IA: *tamboril@jotason.es*

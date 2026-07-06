@@ -21,6 +21,7 @@ params:
     - copla
     - romance
     - jota aragonesa
+    - jota extremeña
     - jota
     - informática
     - informatica
@@ -41,7 +42,7 @@ params:
   homeInfoParams:
     Title: "{ Jotason.es }"
     Content: >-
-      Los jotasones son coplas de temática tecnológica nacidas de mezclar la [jota aragonesa](https://es.wikipedia.org/wiki/Jota_aragonesa) y la [notación de objecto de JavaScript](https://es.wikipedia.org/wiki/JSON).
+      Los jotasones son coplas de temática tecnológica nacidas de mezclar la [jota](https://es.wikipedia.org/wiki/Jota_(m%C3%BAsica)) y la [notación de objecto de JavaScript](https://es.wikipedia.org/wiki/JSON).
 
 outputs:
   home:

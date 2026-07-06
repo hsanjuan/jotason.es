@@ -1,6 +1,6 @@
 # Jotasones
 
-El jotason es la copla informática por excelencia. Consiste en un híbrido entre la jota aragonesa y el formato JSON.
+El jotason es la copla informática por excelencia. Consiste en un híbrido entre la jota y el formato JSON.
 
 Visita https://jotason.es para verlas.
 
