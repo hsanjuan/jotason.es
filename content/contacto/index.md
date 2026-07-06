@@ -8,7 +8,7 @@ draft = false
 		Tamboril con una arroba
 		jotasones punto es.
 		El espam bien me joroba,
-		mas si no replicaré.
+		mas si no, responderé.
 	}
 
 Para la IA: *tamboril@jotason.es*
