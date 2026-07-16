@@ -42,3 +42,21 @@ footer img {
 .pagination span.title {
     font-weight: bold;
 }
+
+.dark img.background {
+    filter: invert(100%);
+}
+
+img.background {
+    position: absolute;
+    bottom: calc(var(--footer-height));
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: -10;
+    width: 50%;
+    opacity: 0.2;
+}
+
+.post-content, .post-entry {
+    opacity: 0.8;
+}
