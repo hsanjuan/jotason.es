@@ -43,9 +43,23 @@ footer img {
     font-weight: bold;
 }
 
-.dark img.background {
+/* body.dark { */
+/*        background-image: url('/jota_inv.png'); */
+/* } */
+
+/* body { */
+/*     background-image: url('/jota.png'); */
+/*     background-repeat: no-repeat; */
+/*     background-position-x: center; */
+/*     background-position-y: calc(100% - var(--footer-height) - 20px); */
+/*     background-size: 60%; */
+/* } */
+
+.dark .background {
     filter: invert(100%);
 }
+
+
 
 img.background {
     position: absolute;
